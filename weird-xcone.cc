@@ -10,10 +10,12 @@ using namespace std;
 using namespace contrib;
 
 
-// Compile with:
-// g++ weird-xcone.cc -o weird-xcone  `fastjet-install/bin/fastjet-config --cxxflags --libs --plugins` -lHOTVR -lNsubjettiness -lRecursiveTools -std=c++11
+// Compile with Makefile:
+//
+// make
 //
 // Run with:
+//
 // ./weird-xcone < weirdEvent.dat
 
 
